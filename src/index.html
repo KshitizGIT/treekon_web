@@ -5,37 +5,32 @@ email: info@treekon.com
 phone: +977-9849632173
 ---
 
-<section class="hero">
-  <h2>Welcome to Treekon</h2>
-  <p>Your solution for sustainable tech.</p>
-  <a href="#learn-more" class="btn">Learn More</a>
-</section>
+<div class="flex flex-col gap-4">
+  <section>
+    {% include '_banner.html' %}
+  </section>
 
+  <section class="flex flex-col gap-4 text-center">
+    {% include '_services.html' %}
+  </section>
 
-<section>
-{% include '_banner.html' %}
-</section>
+  <section>
+    {% include '_d3_framework.html' %}
+  </section>
 
-<section>
-{% include '_services.html' %}
-</section>
+  <section>
+    {% include '_testimonials.html' %}
+  </section>
 
-<section>
-{% include '_d3_framework.html' %}
-</section>
+  <section>
+    {%include '_about_us.html' %}
+  </section>
 
-<section>
-  {% include '_testimonials.html' %}
-</section>
+  <section>
+    {%include '_call_to_action.html' %}
 
-<section>
-  {%include '_about_us.html' %}
-</section>
-
-<section>
-  {%include '_call_to_action.html' %}
-
-</section>
-<section>
-  {%include '_contact_us.html' %}
-</section>
+  </section>
+  <section>
+    {%include '_contact_us.html' %}
+  </section>
+</div>
