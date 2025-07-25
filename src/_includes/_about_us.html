@@ -1,4 +1,22 @@
-<h2> WHO WE ARE</h2>
+<h2 class="heading"> WHO WE ARE?</h2>
 
 
-<p>We are the team of experts, driven by a commitment to redefine the boundaries of technology. Our dedicated team and relentless pursuit of excellence empower businesses worldwide,delivering transformative solutions that drive sustainable growth and elevate success.</p>
+<p class="paragraph mb-5">We are the team of experts, driven by a <strong>commitment</strong> to redefine the boundaries of <strong>technology.</strong> Our <strong>dedicated team</strong> and relentless pursuit of excellence empower businesses worldwide,delivering <strong>transformative solutions</strong> that drive sustainable growth and elevate success.</p>
+
+
+<div class="flex gap-x-35 gap-y-15 flex-wrap items-center justify-center pt-20">
+  {% for member in members %}
+  <div class="flex gap-5 items-center">
+    <img class="rounded-full" src="{{member.image}}"/>
+    <div class="flex flex-col gap-2 items-start">
+      <div class="text-secondary font-semibold">{{member.name}}</div>
+
+      <span class="">{{member.title}}</span>
+      <div class="flex gap-2">
+        <a href= "{{member.linkedin}}"><img src="/assets/img/linkedin.svg"/></a>
+        <a href= "{{member.instagram}}"><img src="/assets/img/instagram.svg"/></a>
+      </div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

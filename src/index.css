@@ -1,0 +1,38 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-primary: #FFFFFF;
+  --color-secondary: #666666;
+  --color-discover: #00F6FF;
+  --color-design: #46DFB1;
+  --color-dev-deliver: #80EE98;
+}
+
+@layer components {
+  .heading {
+    @apply underline underline-offset-16 font-bold text-center text-2xl text-secondary uppercase mb-8;
+  }
+  .subHeading {
+    @apply underline underline-offset-16 font-bold text-2xl text-primary uppercase mb-8;
+  }
+  .paragraph {
+    @apply font-normal text-center text-lg text-secondary;
+  }
+  .button-primary {
+    @apply rounded-4xl border px-10 py-2 text-primary font-semibold text-center text-xl cursor-pointer; 
+    background: linear-gradient(90deg, #20B7DD 0%, #46EBB5 100%);
+  }
+  .button-secondary {
+    @apply rounded-4xl border px-10 py-2 text-secondary font-semibold text-center text-xl cursor-pointer;
+  }
+
+  .design {
+    background-color: var(--color-design)
+  }
+  .discover {
+    background-color: var(--color-discover)
+  }
+  .develop-and-deliver {
+    background-color: var(--color-dev-deliver)
+  }
+}

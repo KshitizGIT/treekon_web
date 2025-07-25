@@ -1,0 +1,51 @@
+[
+  {
+    "image": "/assets/img/adarsha.png",
+    "name": "Adarshan Chapagain",
+    "title": "Visionary-in-Chief",
+    "linkedin": "some-linkedin",
+    "instagram": "insta"
+  },
+  {
+    "image": "/assets/img/aashish.png",
+    "name": "Aashin Paudel",
+    "title": "Operations Maestro",
+    "linkedin": "some-linkedin",
+    "instagram": "insta"
+  },
+  {
+    "image": "/assets/img/ashim.png",
+    "name": "Ashim Bajracharya",
+    "title": "Creative Visionary",
+    "linkedin": "some-linkedin",
+    "instagram": "insta"
+  },
+  {
+    "image": "/assets/img/ashwin.png",
+    "name": "Ashwin Pradhan",
+    "title": "Strategy Whisperer",
+    "linkedin": "some-linkedin",
+    "instagram": "insta"
+  },
+  {
+    "image": "/assets/img/kshitiz.png",
+    "name": "Kshitiz Shakya",
+    "title": "Innovative Architect",
+    "linkedin": "some-linkedin",
+    "instagram": "insta"
+  },
+  {
+    "image": "/assets/img/sarita.png",
+    "name": "Sarita Karki",
+    "title": "SOlution Maven",
+    "linkedin": "some-linkedin",
+    "instagram": "insta"
+  },
+  {
+    "image": "/assets/img/soyesha.png",
+    "name": "Soyesha Karki",
+    "title": "Financial Guru",
+    "linkedin": "some-linkedin",
+    "instagram": "insta"
+  }
+]

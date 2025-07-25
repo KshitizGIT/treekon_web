@@ -1,4 +1,24 @@
-<h2> TESTIMONIALS </h2>
+<h2 class="heading"> TESTIMONIALS </h2>
 
-<p> We ensure your <strong>satisfaction</strong> with our <strong>tailored solutions</strong>.
+<p class="paragraph mb-5"> We ensure your <strong>satisfaction</strong> with our <strong>tailored solutions</strong>.
+
+<div class="flex gap-20 pt-20">
+  {% for testimonial in testimonials %}
+  <div class="border rounded-xl px-5 pb-5 gap-2 flex flex-col items-center relative pt-22 testimonial text-primary">
+    <div class="flex gap-10 items-center absolute -top-17">
+      <span class="text-cyan-500 font-bold text-8xl pt-10">“</span>
+      <img class="rounded-full" src="{{testimonial.image}}"/>
+      <span class="text-cyan-500 font-bold text-8xl pt-10">”</span>
+    </div>
+    <p> {{testimonial.message}}</p>
+    <div class="border w-10"></div>
+
+    <div>
+      <p class="font-semibold">{{testimonial.name}}</p>
+      <p>{{testimonial.title}}</p>
+      <p>{{testimonial.company}}</p>
+    </div>
+  </div>
+  {% endfor %}
+</div>
 

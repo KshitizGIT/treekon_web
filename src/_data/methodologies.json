@@ -1,0 +1,17 @@
+[
+  {
+    "id": "discover",
+    "name": "Discover",
+    "description": " In this phase, we aim to comprehensively understand the client's requirements, business processes, and pain points. This phase is crucial for laying the project's foundation by gathering all necessary information and aligning expectations."
+  },
+  {
+    "id": "design",
+    "name": "Design",
+    "description": "Once the use cases and requirements are confirmed, we convert them into visual and interactive designs. This phase involves creating prototypes and mockups, validation them with stakeholders, and refining them based on feedback."
+  },
+  {
+    "id": "dev-deliver",
+    "name": "Develop & Deliver",
+    "description": "This phase encompasses both the development and the delivery of the final product. We build the software in iterative cycles, ensuring the continuous delivery of functional modules. We also plan for the production deployment and ensure the end-users are prepared to use the new system."
+  }
+]

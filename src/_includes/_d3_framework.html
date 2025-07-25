@@ -1,0 +1,21 @@
+<h2 class="heading">D3 FRAMEWORK</h2>
+
+<p class="paragraph mb-5"> Explore our unique approach to <strong>diagnosing, designing,</strong> and <strong>delivering</strong> business strategies that drive growth and innovation.</p>
+
+
+<img src="/assets/img/d3.svg" alt="treekon_d3"/>
+
+<div class="flex mt-5 gap-20">
+
+  {% for method in methodologies %}
+  <div class="flex flex-col items-left">
+    <div class="flex gap-2 items-center">
+      <div class="border-2 px-3  py-1 rounded {{method.name | slugify}} font-semibold border-gray-400">{{forloop.index}}</div>
+      <div class="font-semibold text-secondary">{{method.name}}</div>
+    </div>
+
+    <p class="paragraph text-left mt-2">{{method.description}}</p>
+  </div>
+  {% endfor %}
+
+</div>

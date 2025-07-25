@@ -9,7 +9,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("assets");
 
   eleventyConfig.on('eleventy.before', async () => {
-    const tailwindInputPath = path.resolve('./src/assets/styles/index.css');
+    const tailwindInputPath = path.resolve('./src/index.css');
 
     const tailwindOutputPath = './www/assets/styles/index.css';
 
