@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{{ title }}</title>
-  <link rel="stylesheet" href="/assets/styles/index.css" />
-  <link rel="stylesheet" href="/assets/styles/main.css"/>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-</head>
-<body class="container mx-auto">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/assets/styles/index.css" />
+    <link rel="stylesheet" href="/assets/styles/main.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  </head>
+  <body class="container mx-auto">
     {% include '_nav.html' %}
-  <main>
-    {{ content }}
-  </main>
-  <footer>
-    <p>&copy; 2025 Treekon</p>
-  </footer>
-</body>
+    <main class="mb-5">
+      {{ content }}
+    </main>
+    <footer class="py-5 border-t flex justify-between border-secondary">
+      <p class="text-secondary">&copy; 2025 Treekon. All Rights Reserved.</p>
+      <div class="flex space-x-4">
+        <img src="/assets/img/linkedin.svg" alt="Linkedin"/>
+        <img src="/assets/img/instagram.svg" alt="Linkedin"/>
+      </div>
+    </footer>
+  </body>
 </html>
