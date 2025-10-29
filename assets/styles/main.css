@@ -1,6 +1,7 @@
 html *
 {
   font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
 }
 
 body {
@@ -9,4 +10,71 @@ body {
 
 .testimonial {
   background-color: #102B41;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.menu {
+}
+
+.menu-content {
+  display: none;
+  background: #333333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  position: absolute;
+  border-radius: 10px;
+  left: 20%;
+}
+
+/* Links inside the dropdown */
+.menu-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.submenu-content {
+  display: none;
+  color: #333333;
+}
+/* Change color of dropdown links on hover */
+.menu-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.menu:hover .menu-content {
+  display: block;
+}
+
+
+.submenu {
+  padding: 10px;
+  background: #333333;
+  color: white;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.submenu.active {
+  color: #333333;
+  background: white;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: var(--color-secondary);
+  grid-gap: 1px;
+
+}
+.hidden {
+  display: none;
+}
+.grid div {
+  background-color: white;
+}
+
+.nav-item-description {
+  font-size: 12px;
+  color: grey;
 }
