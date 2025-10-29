@@ -1,20 +1,20 @@
 [
   {
-    "image": "/assets/img/testimonial_1.jpg",
+    "image": "./assets/img/testimonial_1.jpg",
     "name": "Pramod Pokhrel",
     "title": "Co-Founder",
     "company": "Code for Core Innovation",
     "message": "They deliver results that exceed expectations. Exceptional service! Their expertise brought our vision to life, creating a seamless user experience for our customers."
   },
   {
-    "image": "/assets/img/testimonial_2.jpg",
+    "image": "./assets/img/testimonial_2.jpg",
     "name": "Sushil Basi",
     "title": "Data Analyst",
     "company": "Cratalaya",
     "message": "Exceptional collaration! Their team seamlessly integrated with ours, providing invaluable insights and support throughput the entire development process."
   },
   {
-    "image": "/assets/img/testimonial_3.jpg",
+    "image": "./assets/img/testimonial_3.jpg",
     "name": "Asmita Gautam",
     "title": "Creative Director",
     "company": "CSIT School",
