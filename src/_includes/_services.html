@@ -1,12 +1,13 @@
 <h2 class="heading">OUR SERVICES</h2>
 <p class="paragraph mb-5"><strong class="uppercase">{{title}}</strong> provides expert IT-based services to global enterprises, SMEs and technology challengers.</p>
 <div class="flex flex-wrap gap-5 justify-center items-center">
-  <button class="button-primary"> Design </button>
-  <button class="button-secondary">Social Media Management</button>
-  <button class="button-secondary">ERP</button>
-  <button class="button-secondary">Consulatation</button>
-  <button class="button-secondary">Systems/Platform</button>
-  <button class="button-secondary">Digital Marketing</button>
+  {% for service in services %}
+  <button id="service-button-{{service.title | slugify}}" class="service-button {% if forloop.index ==1 %}button-primary {% else %}button-secondary {% endif %}" onClick="activateService('{{service.title | slugify}}')">{{ service.title }}</button>
+  {% endfor %}
 </div>
 
-<img src="./assets/img/services.svg" alt="services"/>
+{% for service in services %}
+<div class="service-image {% if forloop.index > 1 %}hidden{% endif %}" id="service-image-{{service.title | slugify}}">
+  <img src="{{ service.image }}" alt="{{ service.title }}"/>
+</div>
+{% endfor %}

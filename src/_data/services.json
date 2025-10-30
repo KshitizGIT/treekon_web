@@ -1,0 +1,8 @@
+[
+  { "title": "Design", "image": "./assets/img/design.svg" },
+  { "title": "Social Media Management", "image": "./assets/img/social-media-management.png" },
+  { "title": "ERP", "image": "./assets/img/erp.png" },
+  { "title": "Consulation", "image": "./assets/img/consulation.png" },
+  { "title": "Systems / Platform", "image": "./assets/img/systems-platform.png" },
+  { "title": "Digital Marketing", "image": "./assets/img/digital-marketing.png" }
+]
