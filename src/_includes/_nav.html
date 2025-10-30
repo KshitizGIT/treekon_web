@@ -1,48 +1,45 @@
 <header>
-  <nav class="flex items-center justify-between py-10 border-b border-secondary">
+  <nav class="flex items-center justify-between border-b border-secondary">
     <img src="./assets/img/treekon_logo.svg" href="treekon"/>
     <!-- Navigation items can go here -->
-    <div class="flex space-x-4">
-      <div class="menu-item">Features</div>
+
+    <div class="flex">
+      {% for menu in menus %}
       <div class="dropdown">
-        <div class="menu-item dropbtn">Services</div>
+        <div class="menu-item py-5 px-5 {% if menu.children %}dropbtn{% endif %}">{{menu.title}}</div>
+        {% if menu.children %}
         <div class="dropdown-content">
           <div class="flex">
-            <div class="nav-column ">
-              <div class="nav-item" data-target="nav-content-design">Design</div>
-              <div class="nav-item" data-target="nav-content-social-media-management">Social Media Management</div>
-              <div class="nav-item" data-target="nav-content-erp">ERP</div>
-              <div class="nav-item" data-target="nav-content-consultation">Consultation</div>
-              <div class="nav-item" data-target="nav-content-systems-platform">Systems/Platform</div>
-              <div class="nav-item" data-target="nav-content-digital-marketting">Digital Marketing</div>
+            <div class="basis-64 flex flex-col">
+              {% for child in menu.children %}
+              <div class="dropdown-item nav-column">
+                <div class="nav-item-title"> {{child.title}}</div>
+                <div class="nav-item-description"> {{child.description}}</div>
+              </div>
+              {% endfor %}
             </div>
-            <div>
-              <div id="nav-content-design" class="nav-content">
-                <div class="grid">
-                  <div>
-                    <div>
-                      Graphic Design 
-                    </div>
-                    <div>
-                      We use visual elements like images, colors, and typography to create visually appealing designs that effectively communicate messages and engage audiences.
-                    </div>
-                  </div>
-                  <div> Web Design </div>
-                  <div> UI/UX Design </div>
-                  <div> Monitor Design </div>
-                  <div> Illustration </div>
-                  <div> Product Design </div>
+            <div class="basis-256 grid">
+              {% for child in menu.children %}
+              {% if child.children %}
+              {% for grandchild in child.children %}
+              <div class="p-10 flex flex-col gap-5">
+                <div class="font-semibold">
+                  {{grandchild.title}}
+                </div>
+                <div class="text-sm text-secondary">
+                  {{grandchild.description}}
                 </div>
               </div>
-
+              {% endfor %}
+              {% endif %}
+              {% endfor %}
             </div>
           </div>
         </div>
+        {% endif %}
       </div>
-      <div class="menu-item">Clients</div>
-      <div class="menu-item">About us</div>
-      <div> Blog</div>
+      {% endfor %}
+      <button>Contact us</button>
     </div>
-    <button>Contact us</button>
   </nav
 </header>

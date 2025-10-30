@@ -1,0 +1,71 @@
+[
+  {
+    "title": "Features"
+  },
+  {
+    "title": "Services",
+    "children": [
+      {
+        "title": "Design",
+        "description": "Identifying and understanding people'sneeds, analyzing existing processes and conceptualizing solutions.",
+        "children": [
+          {
+            "title": "Graphic Design",
+            "description": "We use visual elements like images, colors, and typography to create visually appealing designs that effectively communicate messages and engage audiences."
+          },
+          {
+            "title": "Web Design",
+            "description": "We use visual elements like images, colors, and typography to create compelling and effective designs that communicate ideas and information.We use software and tools like Adobe Photoshop, InDesign, and Illustrator to create layouts, logos, advertisements, and other visual assets. Their work can be for a variety of media, including print, digital, and web. "
+          },
+          {
+            "title": "UI/UX Design",
+            "description": "We use visual elements like images, colors, and typography to create compelling and effective designs that communicate ideas and information.We use software and tools like Adobe Photoshop, InDesign, and Illustrator to create layouts, logos, advertisements, and other visual assets. Their work can be for a variety of media, including print, digital, and web. "
+          },
+          {
+            "title": "Motion Design",
+            "description": "We use visual elements like images, colors, and typography to create compelling and effective designs that communicate ideas and information.We use software and tools like Adobe Photoshop, InDesign, and Illustrator to create layouts, logos, advertisements, and other visual assets. Their work can be for a variety of media, including print, digital, and web. "
+          },
+          {
+            "title": "Illustration",
+            "description": "We use visual elements like images, colors, and typography to create compelling and effective designs that communicate ideas and information.We use software and tools like Adobe Photoshop, InDesign, and Illustrator to create layouts, logos, advertisements, and other visual assets. Their work can be for a variety of media, including print, digital, and web. "
+          },
+          {
+            "title": "Product Design",
+            "description": "We use visual elements like images, colors, and typography to create compelling and effective designs that communicate ideas and information.We use software and tools like Adobe Photoshop, InDesign, and Illustrator to create layouts, logos, advertisements, and other visual assets. Their work can be for a variety of media, including print, digital, and web. "
+          }
+        ]
+      },
+      {
+        "title": "Social Media Management",
+        "description": "Provides expert IT-based services to global enterprises, SMEs, and technology challengers."
+      },
+
+      {
+        "title": "ERP",
+        "description": "Provides expert IT-based services to global enterprises, SMEs, and technology challengers."
+      },
+      {
+        "title": "Consulation",
+        "description": "Provides expert IT-based services to global enterprises, SMEs, and technology challengers."
+      },
+      {
+        "title": "Systems / Platforms",
+        "description": "Provides expert IT-based services to global enterprises, SMEs, and technology challengers."
+      },
+      {
+        "title": "Digital Marketing",
+        "description": "Provides expert IT-based services to global enterprises, SMEs, and technology challengers."
+      }
+    ]
+  },
+  {
+    "title": "Clients"
+  },
+  {
+    "title": "About us"
+  },
+  {
+    "title": "Blog",
+    "link": "/blog"
+  }
+]
